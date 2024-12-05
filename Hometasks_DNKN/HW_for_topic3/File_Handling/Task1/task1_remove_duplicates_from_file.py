@@ -1,3 +1,7 @@
+'''
+Read the file and remove equal lines (if any).
+'''
+
 def remove_duplicate_lines(some_file):
     # Open the file in read mode
     with open(some_file, 'r') as file:

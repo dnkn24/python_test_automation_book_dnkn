@@ -1,3 +1,8 @@
+'''
+Print out all words with length of n-characters
+'''
+
+
 import re
 def print_n_character_words(some_file, n):
     with open(some_file, 'r') as file:

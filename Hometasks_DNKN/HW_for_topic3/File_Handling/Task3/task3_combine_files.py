@@ -1,3 +1,7 @@
+'''
+Combine two files into a third file
+'''
+
 def combine_files(file1, file2, output_file):
 
     with open(file1, 'r') as file1:
